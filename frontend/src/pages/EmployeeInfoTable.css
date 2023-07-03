@@ -1,0 +1,54 @@
+.flex{
+  display: flex;
+}
+
+.space{
+  justify-content: space-between;
+  background: #435d7d;
+  padding: 9px;
+}
+
+.pagination{
+  display: flex;
+  justify-content: space-between;
+}
+
+.button{
+  margin-right: 5px;
+}
+
+.color{
+  color: white;
+}
+
+.search{
+  margin: 2rem 5px 5px 25rem;
+  display: flex;
+}
+
+.search button{
+  border:  1px solid black;
+}
+
+.search input{
+  width: 25rem;
+  height: 2.3rem;
+}
+
+.insert-record{
+  border: 1px solid black;
+  height: 29rem;
+  width: 30rem;
+  margin-left: 10rem;
+}
+
+.insert-record *{
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.insert-record input{
+  width: 25rem;
+  
+}
